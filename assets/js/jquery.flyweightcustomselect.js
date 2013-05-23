@@ -83,6 +83,9 @@
 			};
 
 			var positionMenu = function() {
+				if(!placeHolder){
+					return false;
+				}
 				//position menu
 				var menuHeight = menuDiv.outerHeight(),
 					placeHolderTop = placeHolder.offset().top,
@@ -445,9 +448,9 @@
 			};
 
 			var onSelectChange = function(e) {
-			  if (e.target.options && placeHolder) {
-			    placeHolder.find("span." + settings.classes.placeholder.text.base).html(e.target.options[e.target.selectedIndex].text);
-			  }
+				if (e.target.options && placeHolder) {
+					placeHolder.find("span." + settings.classes.placeholder.text.base).html(e.target.options[e.target.selectedIndex].text);
+				}
 			};
 
 			var enable = (function() {
@@ -622,10 +625,10 @@
 		if ( methods[method] ) {
 			return methods[method].apply( this, Array.prototype.slice.call( arguments, 1 ));
 		} else if ( typeof method === 'object' || ! method ) {
-		  //else if the argument is of type object (i.e. we assume it is config and extend it into default settings) or nothing, we call init
+			//else if the argument is of type object (i.e. we assume it is config and extend it into default settings) or nothing, we call init
 			return methods.init.apply( this, arguments );
 		} else {
-		  //fail with error message to jQuery
+			//fail with error message to jQuery
 			$.error( 'Method ' +  method + ' does not exist on jQuery.flyweightCustomSelect' );
 		}
 

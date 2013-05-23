@@ -17,22 +17,30 @@
     "email": "ray.userinterface@gmail.com",
     "url": "http://www.rayui.com"
   },
-  "maintainers":[ {
-    "name": "Ray Brooks"
-  },
-  {
-    "name": "Aaron Faber",
-    "email": "aaron.jack.faber@gmail.com"
-  }],
-  "contributors":[ {
-    "name": "Rhys Evans",
-    "url": "http://wheresrhys.co.uk"
-  },
-  {
-    "name": "Aaron Faber",
-    "email": "aaron.jack.faber@gmail.com"
-  }],
+  "maintainers": [
+    {
+      "name": "Ray Brooks"
+    },
+    {
+      "name": "Aaron Faber",
+      "email": "aaron.jack.faber@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rhys Evans",
+      "url": "http://wheresrhys.co.uk"
+    },
+    {
+      "name": "Aaron Faber",
+      "email": "aaron.jack.faber@gmail.com"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "97e180a45d7fe08a16946a3cf40445a1b509930f"
+  "gitHead": "97e180a45d7fe08a16946a3cf40445a1b509930f",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.1"
+  }
 }

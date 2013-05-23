@@ -1,0 +1,38 @@
+{
+  "name": "flyweight-jquery-custom-select",
+  "version": "0.1.2",
+  "description": "This plugin implements a flyweight design pattern for jQuery custom select controls",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shnist/flyweight-jquery-custom-select.git"
+  },
+  "keywords": [
+    "jquery",
+    "flyweight",
+    "custom",
+    "select"
+  ],
+  "author": {
+    "name": "Ray Brooks",
+    "email": "ray.userinterface@gmail.com",
+    "url": "http://www.rayui.com"
+  },
+  "maintainers":[ {
+    "name": "Ray Brooks"
+  },
+  {
+    "name": "Aaron Faber",
+    "email": "aaron.jack.faber@gmail.com"
+  }],
+  "contributors":[ {
+    "name": "Rhys Evans",
+    "url": "http://wheresrhys.co.uk"
+  },
+  {
+    "name": "Aaron Faber",
+    "email": "aaron.jack.faber@gmail.com"
+  }],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "97e180a45d7fe08a16946a3cf40445a1b509930f"
+}
